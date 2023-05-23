@@ -1,0 +1,39 @@
+@import './colors.scss'; 
+
+html {
+  --color-primary-pink: #{$dark-pink};
+  --color-secondary-pink: #{$pink};
+  --color-light-pink: #{$light-pink};
+  --color-lighter-pink: #{$lighter-pink};
+
+  --color-primary-green: #{$dark-green};
+  --color-secondary-green: #{$green};
+  --color-light-green: #{$light-green};
+  --color-lighter-green: #{$lighter-green};
+
+  --color-primary-blue: #{$dark-blue};
+  --color-secondary-blue: #{$blue};
+  --color-light-blue: #{$light-blue};
+  --color-lighter-blue: #{$lighter-blue};
+
+  --color-switch-bg: #{$black-alpha-200};
+}
+
+html[data-theme="dark"] {
+  --color-primary-pink: #{$lighter-pink};
+  --color-secondary-pink: #{$pink};
+  --color-light-pink: #{$light-pink};
+  --color-lighter-pink: #{$black-pink};
+
+  --color-primary-green: #{$lighter-green};
+  --color-secondary-green: #{$green};
+  --color-light-green: #{$light-green};
+  --color-lighter-green: #{$black-green};
+
+  --color-primary-blue: #{$lighter-blue};
+  --color-secondary-blue: #{$blue};
+  --color-light-blue: #{$light-blue};
+  --color-lighter-blue: #{$black-blue};
+
+  --color-switch-bg: #{$white-alpha-200};
+}

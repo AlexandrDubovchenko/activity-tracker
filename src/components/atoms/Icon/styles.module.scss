@@ -1,0 +1,20 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    * {
+      fill: var(--color-primary);
+    }
+  }
+}
+
+.small {
+  width: 18px;
+  height: 18px;
+}
+
+.normal {
+  width: 32px;
+  height: 32px;
+}

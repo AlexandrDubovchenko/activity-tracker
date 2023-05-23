@@ -1,0 +1,18 @@
+.time {
+  margin: 0;
+  font-size: 25vh;
+  color: var(--color-primary);
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+  transition: all .5s;
+
+  span {
+    color: inherit;
+    font-size: inherit;
+  }
+}
+
+.active {
+  font-weight: 800;
+}

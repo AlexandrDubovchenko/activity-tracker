@@ -1,0 +1,6 @@
+@mixin getStateColors($color) {
+  --color-primary: var(--color-primary-#{$color});
+  --color-secondary: var(--color-secondary-#{$color});
+  --color-light: var(--color-light-#{$color});
+  --color-lighter: var(--color-lighter-#{$color});
+}

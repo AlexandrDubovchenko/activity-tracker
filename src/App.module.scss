@@ -1,0 +1,24 @@
+@import './assets/styles/mixins.scss';
+
+
+.root[data-state='Focus'] {
+  @include getStateColors('pink');
+}
+
+.root[data-state='Short_Break'] {
+  @include getStateColors('green');
+}
+
+.root[data-state='Long_Break'] {
+  @include getStateColors('blue');
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: var(--color-lighter);
+}

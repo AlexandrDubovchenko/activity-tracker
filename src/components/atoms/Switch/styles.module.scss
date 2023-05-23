@@ -1,0 +1,25 @@
+.root {
+  border-radius: 1000px;
+  width: 34px;
+  height: 20px;
+  padding: 2px;
+  background-color: var(--color-switch-bg);
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.active {
+  justify-content: flex-end;
+
+  & .indicator {
+    background-color: var(--color-secondary)
+  }
+}
+
+.indicator {
+  background-color: var(--color-lighter);
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+}

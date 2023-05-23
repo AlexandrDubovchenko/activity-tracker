@@ -1,0 +1,19 @@
+.item {
+  padding: 18px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    font-size: 16px;
+    color: var(--color-primary)
+  }
+}
+
+.input {
+  width: 80px;
+  background: transparent;
+  border: 1px solid var(--color-switch-bg);
+  color: var(--color-primary);
+  font-size: 16px;
+}

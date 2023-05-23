@@ -1,0 +1,20 @@
+@import './colors.scss';
+@import './fonts.scss';
+@import './themes.scss';
+@import './mixins.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-primary;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
